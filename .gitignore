@@ -1,0 +1,17 @@
+# Python bytecode and Numba caches.
+__pycache__/
+*.py[cod]
+
+# Package metadata and build outputs.
+*.egg-info/
+/build/
+/dist/
+
+# Local editor settings and virtual environments.
+/.vscode/
+/.venv/
+/venv/
+
+# macOS metadata.
+.DS_Store
+._*

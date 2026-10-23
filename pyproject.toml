@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rv-ccf"
+version = "0.1.0"
+description = "Small Doppler CCF RV measurement module extracted from EXSPLOSYN"
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+dependencies = ["numpy>=2,<2.4", "scipy>=1.15,<2", "numba==0.62.1"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+py-modules = ["rv_ccf"]
